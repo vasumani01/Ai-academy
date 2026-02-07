@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAV BAR -->
+  <nav class="navbar">
+  <div class="logo">AI Academy</div>
+
+  <!-- HAMBURGER -->
+  <div class="menu-toggle" id="menuToggle">
+    ☰
+  </div>
+
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#courses">Courses</a></li>
+    <li><a href="#whyus">Why Us</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+
+
+    <!-- HEADER -->
+    <header class="header">
+        <h1>AI Academy</h1>
+        <p>Learn Skills. Build Career.</p>
+    </header>
+
+    
+  
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <div class="about-container">
+            <div class="about-left">
+                <p>
+                    Invendo AI Academy is focused on teaching practical, job-ready skills
+                    in Artificial Intelligence, Machine Learning, and Full Stack Development.
+                     We believe in learning by building real-world projects.
+                </p>
+            </div>
+            <div class="about-right">
+                <img src="assets/grow_img.jpg" alt="Teaching Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- COURSES SECTION -->
+    <section id="courses" class="section courses">
+    <h2>Our Courses</h2>
+
+    <div class="course-list">
+        <div class="course-card">
+            <h3>Python & Backend Development</h3>
+            <p>Learn Python, Flask, APIs, and server-side logic.</p>
+        </div>
+
+        <div class="course-card">
+            <h3>Full Stack Development</h3>
+            <p>HTML, CSS, JavaScript, backend integration, deployment.</p>
+        </div>
+
+        <div class="course-card">
+            <h3>AI & Machine Learning</h3>
+            <p>Real-world ML projects, Python libraries, model building.</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- WHY US SECTION -->
+    <section id="whyus" class="section whyus">
+    <h2>Why Choose Us?</h2>
+
+    <div class="why-cards">
+        <div class="why-card">
+            <div class="why-icon">📚</div>
+            <h3>Project-based Learning</h3>
+            <p>Learn by building real-world projects, not just theory</p>
+        </div>
+
+        <div class="why-card">
+            <div class="why-icon">💼</div>
+            <h3>Industry-Focused</h3>
+            <p>Curriculum designed with industry professionals</p>
+        </div>
+
+        <div class="why-card">
+            <div class="why-icon">🎓</div>
+            <h3>Expert Mentorship</h3>
+            <p>Get personalized guidance from industry experts</p>
+        </div>
+
+        <div class="why-card">
+            <div class="why-icon">🚀</div>
+            <h3>Career Growth</h3>
+            <p>Build the skills employers are looking for</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section contact">
+  <h2>Contact Us</h2>
+
+  <div class="contact-container">
+    <!-- Left: Contact Info -->
+    <div class="contact-card">
+      <p>Email: info@invendoai.com</p>
+      <p>Phone: +91 XXXXX XXXXX</p>
+    </div>
+
+    <!-- Right: Contact Form -->
+    <form id="contactForm" novalidate>
+      <div class="form-group">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <span class="error" id="nameError"></span>
+      </div>
+
+      <div class="form-group">
+        <input type="email" id="email" placeholder="Your Email" required>
+        <span class="error" id="emailError"></span>
+      </div>
+
+      <div class="form-group">
+        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+        <span class="error" id="messageError"></span>
+      </div>
+
+      <button type="submit" id="submitBtn">Send Message</button>
+      <div id="formSuccess" class="form-success">✅ Message sent successfully!</div>
+    </form>
+  </div>
+</section>
+
+
+
+
+
+    <footer class="footer">
+    <p>© 2026 Invendo AI Academy</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
